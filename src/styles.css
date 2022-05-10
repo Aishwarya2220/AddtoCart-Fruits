@@ -1,0 +1,94 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  padding: 20px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+.item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  width: 200px;
+  padding: 20px;
+}
+.CardItemSet {
+  display: flex;
+}
+.cart-container {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  display: flex;
+  margin: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  font-size: smaller;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: auto;
+  position: absolute;
+  top: 40px;
+  align-items: center;
+}
+.items {
+  margin: 9px;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #d31027 0%,
+    #ea384d 51%,
+    #d31027 100%
+  );
+}
+.btn-grad {
+  margin: auto;
+  padding: 5px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.heading-cart {
+  margin: 20px;
+  color: chocolate;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-cart {
+  height: 80px;
+  widows: 50px;
+}
